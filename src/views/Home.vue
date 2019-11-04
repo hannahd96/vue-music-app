@@ -1,7 +1,7 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <i class="fas fa-headphones" id="headphone-icon"></i>
+    <HelloWorld msg="Vue Music App"/>
   </div>
 </template>
 
@@ -16,3 +16,19 @@ export default {
   },
 };
 </script>
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Kanit|Staatliches&display=swap');
+
+h1{
+  font-family: 'Kanit', sans-serif;
+  margin:0px;
+  letter-spacing: 1px;
+}
+
+#headphone-icon{
+  color:white;
+  font-size:35px;
+  padding:5px 0px 0px 0px;
+}
+</style>
